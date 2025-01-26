@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  border: none;
+  color: var(--primary-color);
+  box-shadow: 0 0 4px black;
+  background: linear-gradient(to top, var(--primary-components-background) 20%, var(--secondary-components-background) 100%);
+}
+
+.innerContainer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.closeButtonContainer{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeButton {
+  padding: 5px;
+  padding-inline: 15px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  color: white;
+  cursor: pointer;
+  background-color: var(--tertiary-color);
+}
+
+.closeButton:hover {
+  background-color: var(--tertiary-color-hover);
+}

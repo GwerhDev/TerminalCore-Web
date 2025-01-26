@@ -1,18 +1,14 @@
 import { Switch, Route } from 'react-router-dom';
 import { Nav } from './app/components/Nav';
-import { LandingPage } from './app/pages/LandingPage';
-import { About } from './app/pages/About';
+import LandingPage from './app/pages/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
       <Switch>
         <Route exact path='/'>
-          <LandingPage/>
-        </Route>
-        <Route exact path='/about'>
-          <About/>
+          <LandingPage />
         </Route>
       </Switch>
     </div>

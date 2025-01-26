@@ -29,7 +29,7 @@ export const Welcome = () => {
             transition={{ duration: 1.5, delay: .3 }}
             animate={{ opacity: 1, x: 0 }}
           >
-            <h4>Creamos soluciones innovadoras, abiertas y colaborativas que potencien a las personas para prosperar en un mundo digital en constante cambio.</h4>
+            <h4>Soluciones innovadoras, abiertas y colaborativas que potencien a las personas en un mundo digital en constante cambio.</h4>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: -15 }}

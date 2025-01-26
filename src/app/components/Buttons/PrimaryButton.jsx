@@ -1,7 +1,7 @@
 import s from "./PrimaryButton.module.css";
 
 export const PrimaryButton = (props) => {
-  const { text, onClick, href } = props || {};
+  const { text, onClick, href, disabled } = props || {};
 
   const handleClick = () => {
     onClick && onClick();
@@ -12,13 +12,13 @@ export const PrimaryButton = (props) => {
       {
         href
           ?
-          <a href={href}>
-            <button className={s.container}>
+          <a disabled={disabled} href={href}>
+            <button disabled={disabled} className={s.container}>
               {text}
             </button>
           </a>
           :
-          <button onClick={handleClick} className={s.container}>
+          <button disabled={disabled} onClick={handleClick} className={s.container}>
             {text}
           </button>
       }

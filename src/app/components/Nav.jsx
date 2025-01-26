@@ -1,13 +1,19 @@
 import s from "./Nav.module.css";
 import { Logo } from "./Logo";
 import { PrimaryButton } from "./Buttons/PrimaryButton";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { DialogModal } from "./Modals/DialogModal";
+import { useState } from "react";
+import { LoginForm } from "./Forms/LoginForm";
 
 export const Nav = () => {
-  const history = useHistory();
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleNavigate = () => {
-    history.push("/login");
+  const handleOpenLoginDialog = () => {
+    setIsOpen(true);
+  };
+
+  const handleCloseLoginDialog = () => {
+    setIsOpen(false);
   };
 
   return (
@@ -22,11 +28,14 @@ export const Nav = () => {
 
             </ul>
             <ul className={s.ulNav}>
-              <PrimaryButton onClick={handleNavigate} text="Ingresar" />
+              <PrimaryButton onClick={handleOpenLoginDialog} text="Ingresar" />
             </ul>
           </div>
         </div>
       </section>
+      <DialogModal isOpen={isOpen} onClose={handleCloseLoginDialog} >
+        <LoginForm />
+      </DialogModal>
     </div>
   )
 }
