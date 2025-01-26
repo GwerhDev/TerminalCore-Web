@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.slogan {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: Orbitron;
+  color: var(--primary-color);
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+}

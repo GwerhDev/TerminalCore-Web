@@ -1,0 +1,14 @@
+{
+    "apps": [
+    {
+      "name": "laruinatv",
+      "idImg": "1OFUJBEU1qFEFrU293sby4xeu5JqKxdOf",
+      "url": "https://tv.laruina.cl"
+    },
+    {
+      "name": "worldofgerh",
+      "idImg": "1T-CW9zICDDpLgW4yp1DQaxD8UXxswXmc",
+      "url": "http://worldofgwerh.netlify.app/"
+    }
+  ]
+}

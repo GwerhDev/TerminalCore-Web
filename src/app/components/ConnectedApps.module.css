@@ -1,0 +1,83 @@
+.bgCanvas{
+  width: 100%;
+}
+
+.listPages{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  margin-left: -40px;
+}
+
+.divTitle{
+  max-width: 100vw;
+  display: flex;
+  justify-content: center; 
+}
+
+.pagesIcon{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  transition-duration: .4s;
+}
+
+.link{
+  background-color: rgba(48, 48, 48, 0.486);
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  transition-duration: .4s;
+}
+
+.imgApps{
+  transition-duration: .4s;
+}
+
+.imgApps:hover{
+  transform: translateY(-10px);
+}
+
+.sectionCont{
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.contApps{
+  background-color: rgba(124, 103, 128, 0.774);
+  padding: 100px;
+  width: auto;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.title{
+  color: white;
+  font-family: Helvetica; 
+  font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .sectionCont{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contApps{
+    padding: 50px;
+  }
+  .title{
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+}

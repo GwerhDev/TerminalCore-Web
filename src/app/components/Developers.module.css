@@ -1,0 +1,142 @@
+@font-face {
+  font-family: Trajan;
+  src: url(../../assets/fonts/TrajanusBricks.ttf);
+}
+
+.developersCont{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.cardsCont{
+  position: relative;
+  width: auto;
+  padding: 8rem;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex; 
+  justify-content: space-around;
+}
+
+@keyframes animation {
+  from {
+    opacity: .2;
+    scale: 1.1
+  }
+  to {
+    opacity: 0;
+    scale: 1
+  }
+}
+
+@keyframes resplandor {
+  0% {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+  50% {
+    box-shadow: 0px 0px 200px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+}
+
+.imgProfile{
+  border-radius: 100%;
+  margin-top: 60px;
+  border-color: rgba(255, 255, 255, 0.735);
+  box-shadow: 0px 0px 10px white;
+  filter: grayscale(.5);
+  transition-duration: .5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+}
+
+.imgProfile:hover{
+  filter: grayscale(.3);
+  box-shadow: 0px 0px 15px white;
+}
+
+.alias{
+  font-size: 15px;
+  animation-name: resplandorAlias;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  font-family: Trajan;
+}
+
+.name{
+  font-size: 25px;
+  animation-name: resplandorName;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  font-family: Trajan;
+}
+
+@media (max-width: 800px) {
+  .enterBtn{
+    font-size: 12px;
+  }
+  .cardsCont{
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardsCont a{
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  
+  }
+}
+
+@keyframes resplandorName {
+  from {filter: drop-shadow(0px 0px 1px rgb(255, 255, 174));}
+  to {filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0));}
+}
+@keyframes resplandorAlias {
+  from {filter: drop-shadow(0px 0px 2px rgba(254, 254, 159, 0.768));}
+  to {filter: drop-shadow(0px 0px 3px rgb(251, 251, 251));}
+}
+
+@media (max-width: 680px) {
+  .imgProfile{
+      scale: .9;
+  }
+}
+
+@media (max-width: 620px) {
+  .name{
+      font-size: 15px;
+      margin-top: -10px;
+  }
+  .alias{
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .name{
+      font-size: 20px;
+      margin-top: -10px;
+  }
+  .alias{
+      font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgProfile{
+      scale: .8;
+  }
+}
+

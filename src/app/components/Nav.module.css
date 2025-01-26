@@ -1,0 +1,82 @@
+.refNav {
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+}
+
+.navSectionCont {
+  padding-right: 60px;
+  padding-left: 60px;
+  width: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navCont {
+  border-radius: 15px;
+  width: 100%;
+  backdrop-filter: blur(20px);
+}
+
+.divNav {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to top, rgb(24, 14, 26) 20%, #100b1a 100%);
+  opacity: .9;
+  transition-duration: 1s;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ulNav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+
+.ulMenu {
+  color: white;
+  list-style: none;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ulMenu li {
+  margin-right: 40px;
+  transition-duration: .4s;
+}
+
+.ulMenu li:hover {
+  filter: drop-shadow(0px 0px 4px var(--primary-color));
+}
+
+@media screen and (max-width: 800px) {
+  .ulMenu {
+    display: none;
+  }
+
+  .ulNav, .divNav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navSectionCont {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
