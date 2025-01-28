@@ -1,5 +1,5 @@
 import s from "./Nav.module.css";
-import { faBars, faBurger, faHamburger, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Logo } from "./Logo";
 import { DEVELOPERS_URL } from "../../middlewares/config";
