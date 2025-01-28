@@ -11,7 +11,7 @@ export const Nav = () => {
         <div className={s.navCont}>
           <div className={s.divNav}>
             <span className={s.burgerContainer}>
-              <FontAwesomeIcon size="xl" icon={faBars} />
+              <FontAwesomeIcon size="lg" icon={faBars} />
             </span>
 
             <span className={s.logoContainer}>
@@ -24,7 +24,7 @@ export const Nav = () => {
             <ul className={s.ulNav}>
               <li>
                 <a className={s.aNav} href={DEVELOPERS_URL} text="Ingresar">
-                  <FontAwesomeIcon size="xl" icon={faUser} />
+                  <FontAwesomeIcon size="lg" icon={faUser} />
                   <span>
                     Ingresar
                   </span>
