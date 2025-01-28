@@ -34,6 +34,12 @@ ul {
   list-style: none;
 }
 
+a {
+  margin: 0;
+  padding: 0;
+}
+
+
 button:disabled {
   opacity: .5;
   cursor: not-allowed;
@@ -58,11 +64,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-a {
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
