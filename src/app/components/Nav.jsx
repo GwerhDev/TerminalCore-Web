@@ -23,7 +23,7 @@ export const Nav = () => {
             </ul>
             <ul className={s.ulNav}>
               <li>
-                <a className={s.aNav} href={DEVELOPERS_URL} text="Ingresar">
+                <a className={s.aNav} href={DEVELOPERS_URL + "/login"} text="Ingresar">
                   <FontAwesomeIcon size="xl" icon={faUser} />
                   <span>
                     Ingresar
