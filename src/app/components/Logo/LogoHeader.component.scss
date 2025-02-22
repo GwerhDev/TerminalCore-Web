@@ -1,0 +1,29 @@
+.logotype {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+
+  .type-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Stencilum-Regular;
+
+    li {
+      margin: 0;
+      padding: 0;
+      font-family: Stencilum-Regular;
+      color: var(--nhexa-white);
+      font-size: 40px;
+
+      small {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
