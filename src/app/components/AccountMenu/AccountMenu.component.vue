@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useStore } from '../../../middlewares/store';
-import { ACCOUNTS_URL, DEVELOPERS_URL, CLIENT_URL } from '../../../middlewares/misc/const';
+import { ACCOUNTS_URL, DEVELOPERS_URL } from '../../../middlewares/misc/const';
 import { CanvasMenuFunction, closeAccountMenu, closeMenu } from '../../../helpers/menu';
 
 const store = useStore();
