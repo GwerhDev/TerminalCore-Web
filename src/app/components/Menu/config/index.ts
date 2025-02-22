@@ -1,20 +1,12 @@
 export const menuList: Array<any> = [
   {
-    label: "Servicios",
+    label: "Productos",
     submenu: [
       {
-        label: "Estudio de Grabación",
-        description: "Grabación, Mezcla y Masterización",
-        route: "/records"
-      }, {
-        label: "Back&Amp",
-        description: "Backline y Amplificación para eventos",
-        route: "/back-amp"
-      }, {
-        label: "Sala de Ensayo",
-        description: "Accede a nuestros planes con tu banda",
-        route: "/sala-de-ensayo"
-      }
+        label: "Streamby",
+        description: "Almacena y administra archivos para tus proyectos de software",
+        href: "https://streamby.vercel.app"
+      },
     ]
   }, {
     label: "Aplicaciones",

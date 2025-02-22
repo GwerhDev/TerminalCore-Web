@@ -11,11 +11,11 @@ defineProps({
 <template>
   <router-link class="d-flex align-cent logotype" to='/'>
     <img src="../../../assets/svg/terminalcore-logo.svg" @click="closeMenu()" :width="width || '50'" alt="">
-    <ul class="type-container">
-      <li>TerminalCore</li>
-      <li>
+    <span class="type-container">
+      <p>TerminalCore</p>
+      <p class="subtitle">
         <small>Conecta tus sentidos</small>
-      </li>
-    </ul>
+      </p>
+    </span>
   </router-link>
 </template>

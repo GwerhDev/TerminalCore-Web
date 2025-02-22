@@ -78,6 +78,9 @@ input {
   padding: 1rem;
   padding-inline: 2rem;
   gap: 1rem;
+  background: linear-gradient(to top, var(--primary-components-background) 20%, var(--secondary-components-background) 100%);
+  backdrop-filter: blur(200px);
+
 
   .download-button {
     gap: 1rem;
@@ -97,7 +100,7 @@ input {
       border: solid 1px var(--primary-color);
     }
   }
-  
+
 }
 
 .icon {

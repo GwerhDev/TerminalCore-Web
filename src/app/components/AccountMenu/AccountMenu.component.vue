@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useStore } from '../../../middlewares/store';
-import { ACCOUNTS_URL, CLIENT_URL } from '../../../middlewares/misc/const';
+import { ACCOUNTS_URL, DEVELOPERS_URL, CLIENT_URL } from '../../../middlewares/misc/const';
 import { CanvasMenuFunction, closeAccountMenu, closeMenu } from '../../../helpers/menu';
 
 const store = useStore();
@@ -24,7 +24,7 @@ function select() {
 };
 
 const pathAccount: string = `${ACCOUNTS_URL}/auth?token=${userToken.value}`;
-const loginRoute: string = `${ACCOUNTS_URL}/login?callback=${encodeURIComponent(CLIENT_URL)}`;
+const loginRoute: string = `${DEVELOPERS_URL}/login?callback=${encodeURIComponent(CLIENT_URL)}`;
 const signupRoute: string = `${ACCOUNTS_URL}/register?callback=${encodeURIComponent(CLIENT_URL)}`;
 
 </script>

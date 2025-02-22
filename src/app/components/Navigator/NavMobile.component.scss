@@ -1,8 +1,7 @@
 .nav-menu-ul {
   margin: 0;
   padding: 0;
-  background-color: var(--components-background);
-  backdrop-filter: blur(200px);
+  background: linear-gradient(to top, var(--primary-components-background) 20%, var(--secondary-components-background) 100%);  backdrop-filter: blur(200px);
   width: 100%;
   display: none;
   justify-content: flex-start;

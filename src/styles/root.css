@@ -26,10 +26,11 @@
   --primary-background-color: #5e445b;
   --secondary-background-color: #598a92;
   --secondary-semitransparent-background-color: #171717bc;
-  --button-primary-color: #95215b;
-  --menu-hover-color: #860746b6;
-  --button-primary-hover-color: #c60e58;
-  --components-background: #1b1b1bba;
+  --menu-hover-color: #5e445b;
+  --button-primary-color: #4884c9;
+  --button-primary-hover-color: #325986;
+  --primary-components-background: #180e1a;
+  --secondary-components-background: #100b1a;
 
   color: var(--nhexa-white);
 }

@@ -10,19 +10,19 @@
   display: none;
   position: absolute;
   flex-direction: column;
-  background-color: var(--components-background);
+  background: linear-gradient(to top, var(--primary-components-background) 20%, var(--secondary-components-background) 100%);
   backdrop-filter: blur(100px);
   box-shadow: 0 0 3px rgba(63, 54, 66, 0.555);
   z-index: 2;
- 
+
   li {
     margin: 0;
-    padding: 0;  
+    padding: 0;
     width: 100%;
     display: flex;
     list-style: none;
     justify-content: center;
-    
+
     .menu-text {
       color: var(--nhexa-white);
       width: 100%;

@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 @font-face {
   font-family: Game-Of-Squids;
   src: url('../assets/fonts/Game-Of-Squids.ttf');
+}
+
+@font-face {
+  font-family: Obitron;
+  src: url('../assets/fonts/Orbitron.ttf');
 }
 
 @font-face {
@@ -192,10 +200,6 @@
   max-width: 650px;
 }
 
-small {
-  font-size: 12px;
-}
-
 a {
   font-weight: 500;
   color: var(--primary-color);
@@ -215,18 +219,16 @@ header {
 
 .main-container {
   width: 100vw;
-  padding: 1rem;
   max-width: 2000px;
-  padding-bottom: 10rem;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  font-family: Poppins;
 }
 
 @media (max-width: 1080px) {
   .main-container {
-    padding-top: 4rem;
     width: 100%;
   }
 }
@@ -246,7 +248,8 @@ h1 {
   padding: 0;
   font-size: 3em;
   line-height: 1.1;
-  font-family: Stencilum-Regular;
+  font-family: Obitron;
+  color: var(--primary-color);
 }
 
 button {
