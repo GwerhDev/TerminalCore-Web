@@ -24,8 +24,8 @@ function select() {
 };
 
 const pathAccount: string = `${ACCOUNTS_URL}/auth?token=${userToken.value}`;
-const loginRoute: string = `${DEVELOPERS_URL}/login?callback=${encodeURIComponent(CLIENT_URL)}`;
-const signupRoute: string = `${ACCOUNTS_URL}/register?callback=${encodeURIComponent(CLIENT_URL)}`;
+const loginRoute: string = `${DEVELOPERS_URL}/login`;
+const signupRoute: string = `${ACCOUNTS_URL}/register`;
 
 </script>
 
