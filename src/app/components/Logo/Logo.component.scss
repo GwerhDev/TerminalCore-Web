@@ -2,11 +2,25 @@
   display: flex;
   gap: 1rem;
   
-  .type {
+  .type-container {
     margin: 0;
     padding: 0;
-    font-family: Stencilum-Regular; 
-    color: var(--nhexa-white);
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    li {
+      margin: 0;
+      padding: 0;
+      color: var(--nhexa-white);
+      font-family: Obitron; 
+      
+      small {
+        font-family: Poppins;
+        margin: 0;
+        padding: 0;
+      }
+    }
   }
 }

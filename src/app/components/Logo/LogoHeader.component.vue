@@ -6,9 +6,9 @@
   <div class="logotype">
     <img src="../../../assets/svg/terminalcore-logo.svg" height="200">
     <ul class="type-container">
-      <li>LA RUINA</li>
+      <li>TerminalCore</li>
       <li>
-        <small>records</small>
+        <small>Conecta tus sentidos</small>
       </li>
     </ul>
   </div>

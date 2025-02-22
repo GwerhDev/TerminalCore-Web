@@ -10,7 +10,8 @@
   overflow: hidden;
 
   color-scheme: light dark;
-  background: linear-gradient(168deg, var(--secondary-background-color) 20%, var(--primary-background-color) 120%);
+  background: linear-gradient(168deg, var(--secondary-color) 10%, var(--tertiary-color) 80%);
+  background: linear-gradient(168deg, var(--secondary-background-color) 10%, var(--primary-background-color) 80%);
   background-attachment: fixed;
 
   font-synthesis: none;
@@ -20,10 +21,10 @@
   -webkit-text-size-adjust: 100%;
 
   --nhexa-white: rgb(229, 229, 229);
-  --primary-color: #dd4da4bb;
+  --primary-color: #89E1F0;
   --primary-hover-color: #b86999;
-  --primary-background-color: #95215b;
-  --secondary-background-color: #171717;
+  --primary-background-color: #5e445b;
+  --secondary-background-color: #598a92;
   --secondary-semitransparent-background-color: #171717bc;
   --button-primary-color: #95215b;
   --menu-hover-color: #860746b6;
