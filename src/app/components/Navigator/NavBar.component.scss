@@ -1,0 +1,19 @@
+.nav-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+@media (max-width: 1080px) {
+  .nav-container {
+    position: fixed;
+    z-index: 9;
+    height: auto;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, var(--primary-components-background) 20%, var(--secondary-components-background) 100%);
+  }
+}
