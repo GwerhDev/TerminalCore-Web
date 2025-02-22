@@ -214,16 +214,16 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 
 .main-container {
   width: 100vw;
   max-width: 2000px;
+  min-height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   font-family: Poppins;
 }
 
@@ -238,7 +238,7 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   display: flex;
   padding-bottom: 4rem;
 }
@@ -300,7 +300,6 @@ button:disabled:hover {
 
 .app-container {
   width: 100%;
-  height: 100%;
   display: flex;
 }
 
@@ -323,12 +322,9 @@ button:disabled:hover {
 
 .router-view {
   width: 100%;
-  height: 100%;
   display: flex;
-  overflow: auto;
   align-items: center;
   flex-direction: column;
-  border-top-left-radius: 2rem;
   background-attachment: fixed;
 }
 
@@ -342,12 +338,6 @@ button:disabled:hover {
 
 .secondary-button:hover {
   background-color: grey;
-}
-
-@media (max-width: 1080px) {
-  .router-view {
-    margin-top: 4rem;
-  }
 }
 
 ul {

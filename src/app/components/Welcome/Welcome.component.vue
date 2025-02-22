@@ -4,7 +4,8 @@
 import Wrapper3D from "../Wrapper3D/Wrapper3D.component.vue";
 /* import { PrimaryButton } from "./Buttons/PrimaryButton";
 import { SecondaryButton } from "./Buttons/SecondaryButton";
- */import logo from "../../../assets/svg/terminalcore-logo.svg";
+ */
+import logo from "../../../assets/svg/terminalcore-logo.svg";
 
 </script>
 
