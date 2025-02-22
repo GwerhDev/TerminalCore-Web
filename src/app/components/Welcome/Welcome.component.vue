@@ -1,7 +1,6 @@
 <style scoped lang="scss" src="./Welcome.component.scss" />
 <script setup lang="ts">
 
-import s from "./Welcome.module.css";
 import Wrapper3D from "../Wrapper3D/Wrapper3D.component.vue";
 /* import { PrimaryButton } from "./Buttons/PrimaryButton";
 import { SecondaryButton } from "./Buttons/SecondaryButton";
