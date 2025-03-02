@@ -1,6 +1,10 @@
 <style scoped lang="scss" src="./MenuDesktop.component.scss" />
 <script setup lang="ts">
-import { menuList } from './config';
+import { computed, Ref } from 'vue';
+import { useStore } from '../../../middlewares/store';
+
+const store = useStore();
+const menuList: Ref<any[]> = computed(() => store.menuList);
 
 </script>
 
@@ -26,7 +30,7 @@ import { menuList } from './config';
                 <font-awesome-icon v-if="item?.submenu" :icon="['fas', 'chevron-down']" />
               </p>
             </a>
-            
+
             <span v-else>
               <p class="pl-2 pr-2 d-flex align-cent gap-1 font-bold">
                 {{ item.label }}
